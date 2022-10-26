@@ -6,6 +6,7 @@ import {THEME} from './src/theme'
 import { SignIn } from '@screens/SignIn';
 import { SignUp } from '@screens/SignUp';
 import { Routes } from './src/routes';
+import { Home } from '@screens/Home';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
